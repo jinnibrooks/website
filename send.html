@@ -1,13 +1,28 @@
-<form method="post" action="https://jinnibrooks.github.io/jinnibrooks/submit.php" name="SampleForm">
-<input type="hidden" name="recipients" value="contact@jinnibrooks.ca" />
-    Your Name:
-    <input type="text" name="name">
-
-    Email Address:
-    <input type="email" name="email">
-
-    Message:
-    <textarea name="message"></textarea>
-
-    <input type="submit" value="Submit">
+    <form method="post" action="https://jinnibrooks.github.io/jinnibrooks/submit.php" name="SampleForm">
+    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />    
+    <input type="hidden" name="required" value="What's your Name?" />
+    <input type="hidden" name="subject" value="New subscriber from jinnibrooks.ca" />
+    <input type="hidden" name="derive_fields" value="email=Name=Email" />
+    <input type="hidden" name="mail_options" value="Exclude=name;email" />
+    <table border="1" cellspacing="5%">
+    <tr>
+        <td>
+        <p>Name:</p>
+        </td>
+        <td><input type="text" name="Name" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <p>Email:</p>
+        </td>
+        <td><input type="email" name="Email" />
+        </td>
+    </tr>
+<tr>
+        <td><input type="submit" value="Submit" /></td>
+        <td style="text-align:right;"><span style="font-size:60%;">Powered by Tectite <a href="http://www.tectite.com/" target="_blank">contact form</a> processor (FormMail).</span>
+        </td>
+    </tr>
+    </table>
 </form>
