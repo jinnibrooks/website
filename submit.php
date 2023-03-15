@@ -521,16 +521,16 @@ if (includeFileExists("formmail-preconfig.inc.php")) {
 $EMAIL_NAME = "^[-a-z0-9._]+"; /* the '^' is an important security feature! */
 
 /* Help: http://www.tectite.com/fmdoc/target_email.php */
-$TARGET_EMAIL = array($EMAIL_NAME . "@yourhost\.ca\.com$");
+$TARGET_EMAIL = array("^jinnibrooks@teksavvy\.com$");
 
 /* Help: http://www.tectite.com/fmdoc/email_addrs.php */
-$EMAIL_ADDRS = array(^,contact@jinnibrooks.ca^,);
+$EMAIL_ADDRS = array('contactme' => 'contact@jinnibrooks.ca');
 
 /* Help: http://www.tectite.com/fmdoc/def_alert.php */
-$DEF_ALERT = "";
+$DEF_ALERT = "contact@jinnibrooks.ca";
 
 /* Help: http://www.tectite.com/fmdoc/site_domain.php */
-$SITE_DOMAIN = "jinnibrooks.ca"; /* your website domain name */
+$SITE_DOMAIN = "http://www.jinnibrooks.ca/";
 
 /* Help: http://www.tectite.com/fmdoc/set_real_document_root.php */
 $SET_REAL_DOCUMENT_ROOT = ""; /* overrides the value set by SetRealDocumentRoot function */
