@@ -1,0 +1,25 @@
+body {
+  background:url(https://i.imgur.com/u9OqtO8.png);
+  background-color: #010204;
+  width: 1000;
+  height: 2308px;
+  color: #00042c;
+  font-family: 'Comfortaa', cursive;
+}
+a:link {
+  color: #eeff94;
+}
+a:visited {
+  color: #010204;
+}
+a:hover {
+  color: #eeff94;
+}
+a:active {
+  color: #eeff94;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; 
+}
