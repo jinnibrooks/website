@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #07080A;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #000;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #DC0000;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+</style>
+</head>
+<body>
+
+<div class="month">      
+  <ul>
+    <li class="prev"></li>
+    <li class="next"></li>
+    <li>
+      November <br>
+      <span style="font-size:18px">2024</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">  
+  <li>&nbsp;</li>
+  <li>&nbsp;</li>
+  <li>&nbsp;</li>
+  <li>&nbsp;</li>
+  <li><a href="#nov1"><span class="active">1</span></a></li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li><a href="#nov6"><span class="active">6</span></a></li>
+  <li>7</li>
+  <li>8</li>
+  <li><a href="#nov9"><span class="active">9</span></a></li>
+  <li>10</li>
+  <li>11</li>
+  <li><a href="#nov12"><span class="active">12</span></a></li>
+  <li>13</li>
+  <li><a href="#nov14"><span class="active">14</span></a></li>
+  <li>15</li>
+  <li>16</li>
+  <li><a href="#nov17"><span class="active">17</span></a></li>
+  <li>18</li>
+  <li><a href="#nov19"><span class="active">19</span></a></li>
+  <li>20</li>
+  <li><a href="#nov21"><span class="active">21</span></a></li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+</ul>
+
+</br></br></br></br></br></br></br></br></br></br></br></br>
+
+<table style="width: 100%;">
+  <tr>
+    <th colspan="2" style="background: #07080A;color: #E1E1E1;">November 2024</th>
+  </tr>
+  <tr>
+    <td style="background: #CACAC3;color: #07080A;">Date</th>
+    <td style="background: #CACAC3;color: #07080A;">Title</td>
+  </tr>
+  <tr>
+    <td id="nov1" style="background: #D20203;color: #CACAC3;">1</td>
+    <td style="background: #DC0000;color: #CACAC3;"><a href="https://gtsuniverse.tumblr.com/post/768131019254775808/gts-clown-duel-chaos-betrayal-and-hardcore">GTS Clown Duel: Chaos, Betrayal, and Hardcore Madness</a></td>
+  </tr>
+  <tr>
+    <td style="background: #CACAC3;color: #07080A;">2</td>
+    <td style="background: #CACAC3;color: #07080A;"></td>
+  </tr>
+  <tr>
+    <td style="background: #CACAC3;color: #07080A;">3</td>
+    <td style="background: #CACAC3;color: #07080A;"></td>
+  </tr>
+  <tr>
+    <td style="background: #CACAC3;color: #07080A;">4</td>
+    <td style="background: #CACAC3;color: #07080A;"></td>
+  </tr>
+  <tr>
+    <td style="background: #CACAC3;color: #07080A;">5</td>
+    <td style="background: #CACAC3;color: #07080A;"></td>
+  </tr>
+  <tr>
+    <td id="nov6">6</td>
+    <td><a href="https://gtsuniverse.tumblr.com/post/766648408708661248/the-battle-for-the-legendary-youtube-championship">The Battle for the Legendary YouTube Championship: Jungle Jim vs. Damon Dante</a></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td id="nov9">9</td>
+    <td><a href="https://gtsuniverse.tumblr.com/post/767035444464697344/uncle-rowdys-accusations-and-triple-threat-chaos">Uncle Rowdy’s Accusations and Triple Threat Chaos</a></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td id="nov12">12</td>
+    <td><a href="https://gtsuniverse.tumblr.com/post/767914631089045504/uncle-rowdys-accusations-and-triple-threat-chaos">CoKANES NEW ADDICTION! GRIM NEEDS TO BE CHAMPION AGAIN!</a></td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td id="nov14">14</td>
+    <td><a href="https://gtsuniverse.tumblr.com/post/767915781177655296/epic-hardcore-wrestling-match">Epic Hardcore Wrestling Match</a></td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td id="nov17">17</td>
+    <td><a href="https://gtsuniverse.tumblr.com/post/767917772121522176/a-legendary-youtube-championship-match-and-a">A Legendary YouTube Championship Match and a shocking return!</a></td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td id="nov19">19</td>
+    <td><a href="https://gtsuniverse.tumblr.com/post/767920022821781504/gts-solid-steel-series-the-battle-for-victory-and">GTS Solid Steel Series: The Battle for Victory and Redemption</a></td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td id="nov21">21</td>
+    <td><a href="https://gtsuniverse.tumblr.com/post/767921669745623040/uncle-rowdys-challenge-and-the-grim-sex">Uncle Rowdy’s Challenge and the Grim Sex Revelation</a></td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</body>
+</html>
+
