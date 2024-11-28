@@ -5,6 +5,26 @@
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+   color: red;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
 </style>
 <style>
@@ -95,7 +115,7 @@ body {font-family: Verdana, sans-serif;}
 
 <div class="month">      
   <ul>
-    <li class="prev"></li>
+    <a href="https://jinnibrooks.github.io/website/themes/gts/calendar/2024/oct/index.html"><li class="prev">&#10094;</li></a>
     <li class="next"></li>
     <li>
       November <br>
@@ -262,12 +282,12 @@ body {font-family: Verdana, sans-serif;}
     <td></td>
   </tr>
   <tr>
-    <td>26</td>
-    <td></td>
+    <td id="nov26">26</td>
+    <td><a href="https://gtsuniverse.tumblr.com/post/768286344581611521/gts-solid-steel-series-pre-show-epic-showdown-in">GRIM WANTS LICI AND SHE WANTS HIM TOO…</a></td>
   </tr>
   <tr>
     <td>27</td>
-    <td></td>
+    <td><a href="https://gtsuniverse.tumblr.com/post/768356126429495296/gts-war-games-team-gts-vs-team-rowdy-epic">GTS War Games: Team GTS vs. Team Rowdy - Epic Steel Cage Battle</a></td>
   </tr>
   <tr>
     <td>28</td>
@@ -278,14 +298,14 @@ body {font-family: Verdana, sans-serif;}
     <td></td>
   </tr>
   <tr>
-    <td>20</td>
+    <td>30</td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
+    <td>31</td>
     <td></td>
   </tr>
+
 </table>
 </body>
 </html>
-
